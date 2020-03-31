@@ -12,6 +12,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <main>
+        <h1 className="heading">Pokemon Cards with GraphQL</h1>
         <PokemonsContainer />
       </main>
     </ApolloProvider>
